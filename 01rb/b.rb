@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-path = ARGV[0]
+path = ARGV.fetch(0)
 lines = File.readlines path
 
 dial = 50
