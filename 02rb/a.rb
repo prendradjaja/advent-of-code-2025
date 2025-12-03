@@ -16,13 +16,10 @@ end
 
 def invalid(n)
   s = n.to_s
-  length = s.length
-  return false if length % 2 == 1
+  return false if s.length % 2 == 1
 
-  half = length / 2
-  first = s[...half]
-  second = s[half..]
-  first == second
+  half = s.length / 2
+  s[...half] == s[half..]
 end
 
 main
