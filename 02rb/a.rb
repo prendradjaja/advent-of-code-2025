@@ -3,10 +3,10 @@
 def main
   path = ARGV.fetch(0)
   text = (File.read path).strip
-  chunks = text.split ','
+  ranges = text.split ','
   answer = 0
-  chunks.each do |chunk|
-    start, stop = chunk.split('-').map(&:to_i)
+  ranges.each do |range|
+    start, stop = range.split('-').map(&:to_i)
     (start..stop).each do |n|
       answer += n if invalid n
     end
