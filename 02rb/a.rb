@@ -6,19 +6,12 @@ def main
   chunks = text.split ','
   answer = 0
   chunks.each do |chunk|
-    start, stop = parse chunk
+    start, stop = chunk.split('-').map(&:to_i)
     (start..stop).each do |n|
       answer += n if invalid n
     end
   end
   puts answer
-end
-
-def parse(chunk)
-  start, stop = chunk.split '-'
-  start = Integer(start)
-  stop = Integer(stop)
-  [start, stop]
 end
 
 def invalid(n)
