@@ -2,7 +2,7 @@
 
 def main
   path = ARGV.fetch(0)
-  text = (File.read path).strip
+  text = File.read(path).strip
   ranges = text.split ','
   answer = 0
   ranges.each do |range|
