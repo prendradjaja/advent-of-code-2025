@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 path = ARGV.fetch 0
+lines = File.readlines(path).map(&:rstrip)
