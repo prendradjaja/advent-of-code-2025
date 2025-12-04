@@ -19,6 +19,7 @@ copy-last:
 
 test:
 	../check-answers.py -p1 "./a.rb in"
+	../check-answers.py -a4174379265 "./b.rb ex"
 	../check-answers.py -p2 "./b.rb in"
 
 example:

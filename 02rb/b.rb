@@ -28,10 +28,10 @@ def invalid n
   s = n.to_s
   (2..s.length)
     .filter { |chunk_count| s.length % chunk_count == 0 }
-    .any? { |chunk_count| invalid_n s, chunk_count }
+    .any? { |chunk_count| invalid_n_chunks s, chunk_count }
 end
 
-def invalid_n s, n
+def invalid_n_chunks s, n
   return false if s.length % n == 1
   equal_chunks(s, n).uniq.length == 1
 end
