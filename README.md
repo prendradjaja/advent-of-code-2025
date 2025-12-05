@@ -12,7 +12,7 @@ Ruby progress:
 03b |         |
 04a |         |
 04b |         |
-05a |         |
+05a |   YES   |   <1
 05b |         |
 06a |         |
 06b |         |
