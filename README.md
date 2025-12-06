@@ -7,11 +7,11 @@ Ruby progress:
 01a |   YES   |   <1
 01b |   YES   |   <1
 02a |   YES   |   1.3
-02b |   YES   |  17 **
+02b |   YES   |  17
 03a |   YES   |   <1
 03b |         |
 04a |   YES   |   <1
-04b |         |
+04b |   YES   |   3.8
 05a |   YES   |   <1
 05b |         |
 06a |         |
