@@ -10,7 +10,7 @@ Ruby progress:
 02b |   YES   |  17 **
 03a |   YES   |   <1
 03b |         |
-04a |         |
+04a |   YES   |   <1
 04b |         |
 05a |   YES   |   <1
 05b |         |
